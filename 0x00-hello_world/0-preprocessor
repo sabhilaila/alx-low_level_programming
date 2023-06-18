@@ -1,9 +1,2 @@
 #!/bin/bash
-if [ "$#" = "0" ]; then
-    echo "No arguments passed."
-    exit 1
-fi
-
-CFILE="$1"
-betty "$CFILE" > c
-diff "$CFILE" c
+g -E| $CFILE -o c
