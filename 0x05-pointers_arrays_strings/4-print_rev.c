@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-*prints_rev - prints a string in reverse
+*prints_rev - prints a string in reverse.
 *@s: the string to print.
-*Return: void
+*Return: void.
 */
 
 void print_rev(char *s)
