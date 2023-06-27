@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_rev - Prints a string in reverse.
- * @s: the string to print in reverse
+ * prints_rev - Prints a string in reverse.
+ * @s: the string to print.
  *
  * Return: void
  */
@@ -11,6 +11,7 @@
 void print_rev(char *s)
 
 {
+
 	int c = 0;
 	while (s[c] != '\0')
 	{
