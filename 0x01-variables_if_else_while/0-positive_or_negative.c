@@ -6,7 +6,7 @@
 
 /**
  * main - prints if the number is positive negative or zero
- * return: always Succes (0)
+ * return: always (Success)
  *
  */
 
