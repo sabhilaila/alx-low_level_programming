@@ -19,5 +19,7 @@ for (j=0; j < n; j++)
 if (j != ( n- 1))
 {
        	printf(", ");
-	printf('\n');
+}
+}
+	printf("\n");
 }
