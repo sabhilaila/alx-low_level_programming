@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main -  prints all single digit numbers
+ * description:  prints all single digit numbers of base 10 starting from 0
  * return: always 0 (Success)
  *
  */
