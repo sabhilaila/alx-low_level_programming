@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - print nembers from 0 to 9
- * return: the number strating by 0 and ending by 9
+ * print_numbers - print nembers since 0 up to 9
+ * return: the numbers since 0 up to 9
  */
 
-int print_number(void)
+int print_numbers(void)
 {
 	int x;
 
