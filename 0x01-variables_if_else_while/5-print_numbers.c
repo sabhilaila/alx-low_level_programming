@@ -4,8 +4,8 @@
 
 /**
  * main -  prints all single digit numbers
- * description:  prints all single digit numbers of base 10 starting from 0
- * return: always 0 (Success)
+ * Description:  prints all single digit numbers of base 10 starting from 0
+ * Return: always 0 (Success)
  *
  */
 
