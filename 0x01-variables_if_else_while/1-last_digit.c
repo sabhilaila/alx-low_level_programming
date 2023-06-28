@@ -4,7 +4,7 @@
 
 /**
  * main - prints a text accoriding number
- * return: always (Success)
+ * Return: always (Success)
  *
  */
 
