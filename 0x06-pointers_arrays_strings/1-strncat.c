@@ -9,7 +9,7 @@
  * Return: A pointer to the resulting string dest.
  */
 
-char *strncat(char *dest, char *src, int n)
+char *my_strncat(char *dest, char *src, int n)
 
 {
 
