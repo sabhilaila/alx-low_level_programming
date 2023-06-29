@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-/** 
+/**
  * main - "prints and that piece of art is useful - Dora Korpar, 2015-10-19",
  * foloowed by a new line, to standard the error.
  * Return: Always 1.
