@@ -4,7 +4,7 @@
 /**
  * _strcat - concentrates two strings
  * @dest: the destination of string
- * @scr: the source string
+ * @src: the source string
  * Return: void
  */
 
