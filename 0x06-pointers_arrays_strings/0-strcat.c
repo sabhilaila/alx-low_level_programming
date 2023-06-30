@@ -5,7 +5,7 @@
  * _strcat - concentrates two strings
  * @dest: the destination of string
  * @scr: the source string
- * Return: a pointer to the resulting dest test
+ * Return: void
  */
 
 char *_strcat(char *dest, char *src)
