@@ -3,7 +3,8 @@
 /**
  * cap_string - capitalize all
  * @str: the string to be capitalized
- * return: a pointer to the changed string
+ *
+ * Return: a pointer to the changed string.
  */
 
 char *cap_string(char *str)
@@ -30,5 +31,5 @@ char *cap_string(char *str)
 			str[index] -= 32;
 	       index++;
 	}
-return (str);
+		return (str);
 }
