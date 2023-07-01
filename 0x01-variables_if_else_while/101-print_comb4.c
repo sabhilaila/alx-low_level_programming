@@ -16,7 +16,7 @@ int main(void)
 	{
 	for (q = p + 1; q <= 9; q++)
 	{
-	if ((p != d) != q)
+	if ((p != d) && (p != q) && (d != q))
 	{
 	putchar(d + '0');
 	putchar(p + '0');
