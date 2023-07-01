@@ -10,7 +10,7 @@ int main(void)
 {
 	int d, p, q;
 
-	for (d = 0; d < 7; d++)
+	for (d = 0; d <= 7; d++)
 	{
 	for (p = d + 1; p <= 8; p++)
 	{
