@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Entry point
@@ -20,9 +18,9 @@ int main(void)
 	{
 	if ((p != d) != q)
 	{
-	putchar(d);
-	putchar(p);
-	putchar(q);
+	putchar(d + '0');
+	putchar(p + '0');
+	putchar(q + '0');
 	if (d == '7' && p == '8')
 	continue;
 	putchar(',');
