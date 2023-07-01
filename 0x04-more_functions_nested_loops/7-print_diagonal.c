@@ -3,17 +3,15 @@
 /**
  * print_diagonal - Draws a diagonal line
  * @n: the numbers of times to print diagonal lines
- * @x: the first point
- * @y: the second point
  * return: void
  */
 void print_diagonal(int n)
 {
 	int x, y;
-	
-       	(n <= 0)
+
+	if (n <= 0)
 	{
-	putchar('\n')
+	putchar('\n');
 	}
 	else
 	{
