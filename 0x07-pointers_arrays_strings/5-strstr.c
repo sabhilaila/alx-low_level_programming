@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * _strstr: entry point
+ * _strstr - entry point
  * @haystack: input
  * @needle: input
  *
- * Return: Always 0 (Success)
+ * Return: needle or null
  */
 
 char *_strstr(char *haystack, char *needle)
