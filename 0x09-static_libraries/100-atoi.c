@@ -2,7 +2,7 @@
 
 /**
  * _atoi - convert a string to an integer
- * @s: the string
+ * @s: the pointer to convert
  * Return: integer
  */
 
@@ -13,11 +13,11 @@ int _atoi(char *s)
 
 	while (!(s[i] <= '9' && s[i] >= '0') && s[i] != '\0')
 	{
-		if (s[i] == '-')
+	if (s[i] == '-')
 			sign *= -1;
-		i++;
+	i++;
 	}
-	while (s[i] <=  '9' && (s[i] >= '0' && s[i] != '\0'))
+	while (s[i] <= '9' && (s[i] >= '0' && s[i] != '\0'))
 	{
 		res = (res * 10) + (s[i] - '0');
 		i++;
