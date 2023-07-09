@@ -4,6 +4,7 @@
  * @dest: input
  * @src: input
  * @n: input
+ * Return: void
  */
 
 char *_strncpy(char *dest, char *src, int n)
