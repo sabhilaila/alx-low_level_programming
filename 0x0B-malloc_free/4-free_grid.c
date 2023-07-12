@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * print_grid - entry point
+ * free_grid - entry point
  * @grid: input
  * @height: input
  * Return: nothing
