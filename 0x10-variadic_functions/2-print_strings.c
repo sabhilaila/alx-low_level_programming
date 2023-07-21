@@ -6,7 +6,7 @@
  * print_strings - prints strings
  * @separator: separator between strings
  * @n: number of arguments
- * Description: ...
+ * Description: This function prints the strings passed as parameters, with the specified separator between them. If a separator is not provided, it will print the strings without any separation. If a string is NULL, it will print "(nil)" instead.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
