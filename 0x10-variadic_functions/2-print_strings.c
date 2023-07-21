@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * print_strings prints strings
+ * print_strings - prints strings
  * @separator: separator between strings
  * @n: number of arguments
+ * Description: ...
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
