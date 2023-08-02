@@ -2,7 +2,7 @@
 #define LISTS_H
 
 /**
- * struct_list_s - singly linked lists
+ * struct list_s - singly linked lists
  * @str: string
  * @len: length
  * @next: next...
