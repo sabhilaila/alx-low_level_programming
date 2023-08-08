@@ -21,10 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	file = fopen(filename, "r");
 
 	if (file == NULL)
-	{
-		printf("error openning file");
 		return (0);
-	}
 	while (((ch = fgetc(file)) != EOF) && (count < letters))
 	{
 		putchar(ch);
