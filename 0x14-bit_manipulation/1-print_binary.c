@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * priny_binary - unction that prints the binary representation of a number.
+ * priny_binary - function that prints the binary representation of a number.
+ * @n: input
  */
 
 void print_binary(unsigned long int n)
