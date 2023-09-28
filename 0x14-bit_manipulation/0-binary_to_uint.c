@@ -22,12 +22,8 @@ unsigned int binary_to_uint(const char *b)
 	{
 		return (0);
 	}
-	else if (b[i] == '1')
-	{
-		result |= (1 << i);
-
+	result |= (1 << i);
 	}
 	i++;
-	}
 	return (result);
 }
