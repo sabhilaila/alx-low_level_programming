@@ -2,6 +2,11 @@
 #include <unistd.h>
 #include "main.h"
 #include <string.h>
+/**
+ * create_file - entry point
+ *
+ * Return: 0 for success
+ */
 int create_file(const char *filename, char *text_content)
 {
 	int file;
